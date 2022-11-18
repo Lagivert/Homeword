@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cemre Balasirin | FORM</title>
+        <meta name="description" content="Information input here">
+    </head>
+    <body style="background-color:powderblue;">
+        <header>
+            <nav>
+                <ul>
+                    <li><button type="button"><a href="Cemre HOME.html">ANA SAYFA</a></button></li>
+                    <li><button type="button"><a href="">ALBUMLER</a></button></li>
+                    <li><button type="button"><a href="">HAKKIMDA</a></button></li>
+                </ul>
+            </nav>
+        </header>
+        <form>
+
+            <p>Lutfen formu doldurarak devam ediniz.</p>
+
+            <div>
+                <label for="isim">Isim:</label>
+                <input type="text" id="isim" name="isim" required><br>
+                <label for="soyisim">Soyisim:</label>
+                <input type="text" id="soyisim" name="soyisim" required><br>
+
+                
+
+            </div>
+            
+            <br>
+
+            <div>
+                <label for="adres">Adres:</label>
+                <input type="text" id="adres" name="sadres" required><br>
+                <label for="numara">Ev/Apartman numarasi:</label>
+                <input type="text" id="numara" name="numara" required><br>
+                <label for="posta">Posta kodu:</label>
+                <input type="number" id="posta" name="posta" required><br>
+                <label for="ulke">Ulke:</label>
+                <input type="text" id="ulke" name="ulke" required>
+                <input type="text" id="sehir" name="sehir" placeholder="Sehir" required><br>
+            </div>
+            
+            <br>
+
+            <div>
+                <p>Cinsiyet:</p>
+
+                <input type="radio" id="erkek" name="cinsiyet" value="Erkek">
+                <label for="erkek">Erkek</label><br>
+                <input type="radio" id="kiz" name="cinsiyet" value="Kiz">
+                <label for="kiz">Kiz</label><br>
+                <input type="radio" id="belirsiz" name="cinsiyet" value="Belirsiz">
+                <label for="belirsiz">Soylemek istemiyorum</label><br>
+                <p>*zorunlu diil.</p>
+            </div>
+            
+            <br>
+
+            <div>
+                <p>Kimsiniz?</p>
+                <input type="checkbox" id="pro" name="pro" value="pro">
+                <label for="pro">Profesyonel ressam</label><br>
+                <input type="checkbox" id="acemi" name="acemi" value="acemi">
+                <label for="acemi">Acemi ressam</label><br>
+                <input type="checkbox" id="hobi" name="hobi" value="hobi">
+                <label for="hobi">Hobici ressam</label><br>
+                <input type="checkbox" id="content" name="content" value="content">
+                <label for="content">Content creator</label><br>
+                <p>*zorunlu diil.</p>
+            </div>
+            
+            <br>
+
+            <div>
+                <label for="mail">E-mailiniz:</label>
+                <input type="email" id="mail" placeholder="ornek@ornek.com" required><br>
+                <label for="tel">Telefon numaraniz:</label>
+                <input type="tel" id="tel" placeholder="+90" required><br>
+
+            </div>
+
+            <br>
+
+            <div>
+                <label for="odeme"> Odeme metodu:</label>
+                <select id="odeme" name="odeme" required>
+                    <option>Visa</option>
+                    <option>Master</option>
+                    <option>Hediye kodu</option>
+                </select>
+            </div>
+            
+            <br>
+
+            <div>
+                <p>Siparisinize ozellik eklemek icin isteklerinzi buraya yazabilirsinz:</p>
+                <input type="text" id="detay" name="detay" maxlength="500" placeholder="max 500 karakter">
+            </div>
+            
+            <br>
+
+            <div>
+                <input type="reset" id="sil">
+                
+                <input type="submit" id="gonder" value="Submit">
+
+            </div>
+             
+
+            
+        </form>
+    </body>
+</html>
